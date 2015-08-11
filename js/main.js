@@ -1,18 +1,13 @@
 <script type="text/javascript">
   heart=document.getElementById("heart");
-  thumb=document.getElementById("thumbsup");
-  web=document.getElementById("screen");
-  what=document.getElementById("what");
-  form=document.getElementById("form");
-  
+
   
   window.onscroll=inView;
   
   
   function inView(){if(isInViewport(heart)){
   heart.setAttribute("class","animated heart bounce");
-  web.setAttribute("class","animated heart bounce");
-  thumb.setAttribute("class","animated heart bounce");
+
 };
   
   

@@ -14,3 +14,36 @@ html {
 body {
   margin: 0;
 }
+
+.work_blocks {
+  width:100%;
+}
+
+.wrapper_work {
+  position:relative;
+  width:80%;
+  max-width:900px;
+  border:1px solid;
+  height:auto;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#work-one {
+  position:relative;
+  display:block;
+  float:left;
+  width:350px;
+  height:300px;
+  background-color:blue;
+  
+}
+
+#work-two {
+  position:relative;
+  display:block;
+  float:right;
+  width:500px;
+  height:300px;
+  background-color:red;
+}
