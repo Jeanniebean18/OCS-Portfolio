@@ -7,7 +7,8 @@ html {
 
 #home {
   position:relative;
-  width: 100%;
+  width:100%;
+/*  border:1px solid red;*/
   
 }
 
@@ -19,8 +20,6 @@ header {
   position:absolute;
   display:block;
   top:0;
-
-
   width:100%;
   z-index:900;
 
@@ -43,20 +42,52 @@ header {
 /*    border-bottom:5px solid ;*/
 }
 
-.nav {
-  display:flex;
-  height:100%;
+.absolute {
+  width:40px;
+  position:absolute !important;
+  
+  top:50px;
+  left:0;
+  
 }
 
+
+
 .vertical_nav {
-  position:fixed;
-  top:43%;
-  left:-160px;
+  position:relative;
+  margin-top:500px;
+ 
+/*  left:-160px;*/
 /*  display:block;*/
   
   -webkit-transform:rotate(-90deg);
   z-index:900;
 /*  border:1px solid;*/
+}
+
+.nav {
+  display:flex;
+
+}
+
+.box{
+  position:fixed;
+  top:0;
+  width:60px;
+  height:600px;
+/*  background-color:red;*/
+  z-index:800;
+}
+
+.nav li {
+  display:inline;
+  padding:10px;
+  font-size:120%;
+/*  border:1px solid;*/
+  background-color:#E71E27;
+  margin-right:20px;
+  
+  text-align:center;
 }
 
 .social {
@@ -65,6 +96,9 @@ header {
 }
 
 .ocs_logo {
+  position:absolute;
+  top:0;
+  right:5%;
   width:150px;
 }
 
@@ -78,13 +112,14 @@ header {
   margin-bottom:-1%;
 }
 
-.social_container {
-  width:20%;
+/*.social_container {
+  position:absol;
   float:right;
- 
-/*  border:1px solid red;*/
   height:50px;
-}
+
+/*  border:1px solid red;*/
+
+}*/
 
 .logo_container {
   position:relative;
@@ -116,7 +151,7 @@ header {
   color:white;
   font-size:310%;
   font-family: 'Montserrat', sans-serif;
-  font-weight:700;
+  font-weight:400;
   padding:1%;
   
   background-color:black;
@@ -138,10 +173,10 @@ h2 {
   position:relative;
   text-align:center;
   color:black;
-  font-size:190%;
+  font-size:210%;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
-  line-height:20px;
+  line-height:10px;
   
 }
 
@@ -174,7 +209,14 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
   text-decoration:none;
-  
+}
+
+a:visited {
+  color:white;
+  font-size:174%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  text-decoration:none;
 }
 
 ul {
@@ -184,24 +226,14 @@ ul {
   
 }
 
-.nav li {
-  align-self:center;
-  flex-grow:1;
-  
-  margin-right:2%;
-  font-size:110%;
-/*  border:1px solid;*/
-  background-color:#E71E27;
-  padding:3%;
-  text-align:center;
-}
 
-.nav:first-child {
+
+/*.nav:first-child {
   flex-grow:2;
-  
-  
-}
 
+
+}
+*/
 
 
 
