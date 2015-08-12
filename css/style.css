@@ -180,9 +180,9 @@ p {
 
 .wrapper_work {
   position:relative;
-  width:50%;
+  width:60%;
   max-width:900px;
-  /*  border:1px solid;*/
+/*    border:1px solid;*/
   height:auto;
   margin-right:auto;
   margin-left:auto;
@@ -266,21 +266,36 @@ p {
   position:relative;
   display:block;
   float:left;
-  width:30%;
+  width:350px;
   height:300px;
-  background-color:purple;
-  margin-bottom:45px;
+  background-color:#EF3F23;
+  margin-bottom:27px;
   visibility:hidden;
-  
+  background-image:url("../assets/travel_baby.png");
 }
+
+#work-five:hover {
+  position:relative;
+  display:block;
+  float:left;
+  width:350px;
+  height:300px;
+  background-color:#EF3F23;
+  margin-bottom:27px;
+  visibility:visible;
+  background-image:url("../assets/travel_baby_hover.png");
+}
+
+
+
 #work-six {
   position:relative;
   display:block;
   float:right;
-  width:62%;
+  width:275px;
   height:300px;
   background-color:purple;
-  margin-bottom:45px;
+  margin-bottom:27px;
   visibility:hidden;
   animation-delay:.5s;
   -webkit-animation-delay:.5s;
