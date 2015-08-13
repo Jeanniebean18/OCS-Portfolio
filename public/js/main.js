@@ -6,7 +6,7 @@ var workThree=document.getElementById("work-three");
 var workFour=document.getElementById("work-four");
 var workFive=document.getElementById("work-five");
 var workSix=document.getElementById("work-six");
-var hover_one=document.getElementById("over-work-one");
+
 
 window.onscroll=inView;
   
@@ -24,22 +24,14 @@ function inView(){
       workThree.style.visibility="visible";
       workThree.setAttribute("class","animated delay2 zoomIn");
 
-    } else {
-      workOne.setAttribute("class","animated fadeOut");
-      workTwo.setAttribute("class","animated fadeOut");
-      workThree.setAttribute("class","animated fadeOut");
-    }
+    } 
       
     if(isInViewport(student)){
 
       student.style.visibility="visible";
       student.setAttribute("class","animated zoomIn");
 
-    } else {
-      student.setAttribute("class","animated fadeOut");
-
-
-    }
+    } 
     
     if(isInViewport(workFour)){
 
@@ -51,24 +43,13 @@ function inView(){
       workSix.setAttribute("class","animated delay2 zoomIn");
   
 
-    } else {
-      workFour.setAttribute("class","animated fadeOut");
-      workFive.setAttribute("class","animated fadeOut");
-      workSix.setAttribute("class","animated fadeOut");
-     
-    }
+    } 
 
     if(isInViewport(studentTwo)){
 
       studentTwo.style.visibility="visible";
       studentTwo.setAttribute("class","animated zoomIn");
-
-    } else {
-      studentTwo.setAttribute("class","animated fadeOut");
-
-
-    }
-      
+    } 
   }
 
 

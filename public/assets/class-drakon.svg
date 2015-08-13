@@ -4,58 +4,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 912 464.75" enable-background="new 0 0 912 464.75" xml:space="preserve">
    
-<style>
 
-.animated {
-    
--webkit-animation-fill-mode: both;
-animation-fill-mode: both;
-}
-.animated.infinite{-webkit-animation-iteration-count:1;animation-iteration-count:1;}
-   
-.blades {
--webkit-transform-origin: 50% 50%;
--moz-transform-origin: 200px 100px;
--moz-transform:none;
-transform-origin: 50% 50%;
-    
-}
-
-@-webkit-keyframes rotate {
-0% {
--webkit-transform:rotate(360deg);
-}
-60% {
-     
-}
-
-}
-@-moz-keyframes rotate {
-0% {
--moz-transform:none;
-}
-60% {
--moz-transform:none;
-}
-}
-
-}
-@keyframes rotate {
-0% {
-transform:rotate(360deg);
-}
-60% {
-     
-}
-}
-
-.grow {
--webkit-animation: rotate 2s  ;
--moz-animation: rotate 2s  ;
-animation: rotate 2s  ;
-}
-  
-</style>
 <g class="star animated blades infinite grow">
 <path  fill="#0079AD" d="M682.824,220.02c-0.094-0.126-0.218-0.156-0.312-0.28c-0.216-0.186-0.403-0.404-0.652-0.528
 c-0.404-0.248-0.839-0.404-1.305-0.466l-2.58-0.404c-0.032-5.345-0.28-10.661-0.684-16.008l2.673-0.621
