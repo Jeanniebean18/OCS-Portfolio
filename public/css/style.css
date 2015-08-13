@@ -25,6 +25,13 @@ header {
 
 }
 
+.clearfix::after {
+  content:" ";
+  display:table;
+  clear:both;
+  
+}
+
 .part-one {
   
   position:relative;
@@ -39,7 +46,7 @@ header {
   -o-background-size:cover;
   
  
-  /*    border-bottom:5px solid ;*/
+      border:5px solid ;
 }
 
 .absolute {
@@ -214,30 +221,19 @@ a:visited {
 }
 
 ul {
-
   list-style-type: none;
   transform:rotate(-90deg);
   -webkit-transform:rotate(-90deg);
   -moz-transform:rotate(-90deg);
   -o-transform:rotate(-90deg);
   /*  border:1px solid;*/
-
-  
-  
 }
 
-
-
-/*.nav:first-child {
-flex-grow:2;
-
-
+.student_image {
+  width:75px;
+  height:75px;
+  border-radius:50%;
 }
-*/
-
-
-
-
 
 .borders {
   position: relative;
@@ -261,7 +257,6 @@ flex-grow:2;
   position:relative;
   width:80%;
   max-width:1290px;
-  /*    border:1px solid;*/
   height:auto;
   margin-right:auto;
   margin-left:auto;
