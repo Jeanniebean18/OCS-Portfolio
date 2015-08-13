@@ -196,6 +196,19 @@
       </div>
       
       <div class="contact_right">
+        <a name="contact"></a>
+        <div id="form">
+        <form action="/contacts" method="post">
+        <p> name: <input type="name" class = "form" placeholder="your name" name="name" value="<%= params["name"] %>" required></p>
+        <p> email: <input type="email" class = "form" placeholder="your email" name="email" value="<%=params["email"]%>" ></p>
+        <p> phone: <input type="text" class = "form" placeholder="402-555-5555" name="phone" value="<%=params["phone"]%>" required></p>
+        <p> message: <input type="text_area" class = "form message" placeholder="what can we build for you?" name="message" value="<%=params["message"]%>"required> </p>
+        <input type="hidden" name="date" value="<%=Time.now%>" </p>
+        <p> <input type="submit" value="submit" class="submit"></p>
+        </form>
+      </div>
+
+        
       </div>
       <div style="clear:both"></div>
     </section>
@@ -211,7 +224,9 @@
   
   
   </section>
-  <script src="js/main.js" type="text/javascript"></script>
+  
+ 
+  <script src="js/main.js" media="(min-width: 700px)" type="text/javascript"></script>
   <!-- google analytics -->
   <!-- end google analytics -->
 </body>

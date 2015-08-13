@@ -1,5 +1,3 @@
- 
-  
 var student=document.getElementById("student_quote");
 var studentTwo=document.getElementById("student_quote_two");
 var workOne=document.getElementById("work-one");
@@ -10,30 +8,28 @@ var workFive=document.getElementById("work-five");
 var workSix=document.getElementById("work-six");
 var hover_one=document.getElementById("over-work-one");
 
-  
-  
-  
 window.onscroll=inView;
   
   
 function inView(){
 
-  
-  if(isInViewport(workOne)){
+  if (document.documentElement.clientWidth  >= 600) {
+      
+    if(isInViewport(workOne)){
 
-    workOne.style.visibility="visible";
-    workOne.setAttribute("class","animated zoomIn");
-    workTwo.style.visibility="visible";
-    workTwo.setAttribute("class","animated delay1 zoomIn");
-    workThree.style.visibility="visible";
-    workThree.setAttribute("class","animated delay2 zoomIn");
+      workOne.style.visibility="visible";
+      workOne.setAttribute("class","animated zoomIn");
+      workTwo.style.visibility="visible";
+      workTwo.setAttribute("class","animated delay1 zoomIn");
+      workThree.style.visibility="visible";
+      workThree.setAttribute("class","animated delay2 zoomIn");
 
-  } else {
-    workOne.setAttribute("class","animated fadeOut");
-    workTwo.setAttribute("class","animated fadeOut");
-    workThree.setAttribute("class","animated fadeOut");
-  }
-
+    } else {
+      workOne.setAttribute("class","animated fadeOut");
+      workTwo.setAttribute("class","animated fadeOut");
+      workThree.setAttribute("class","animated fadeOut");
+    }
+      
     if(isInViewport(student)){
 
       student.style.visibility="visible";
@@ -44,9 +40,6 @@ function inView(){
 
 
     }
-    
-    
-    
     
     if(isInViewport(workFour)){
 
@@ -65,16 +58,18 @@ function inView(){
      
     }
 
-      if(isInViewport(studentTwo)){
+    if(isInViewport(studentTwo)){
 
-        studentTwo.style.visibility="visible";
-        studentTwo.setAttribute("class","animated zoomIn");
+      studentTwo.style.visibility="visible";
+      studentTwo.setAttribute("class","animated zoomIn");
 
-      } else {
-        studentTwo.setAttribute("class","animated fadeOut");
+    } else {
+      studentTwo.setAttribute("class","animated fadeOut");
 
 
-      }
+    }
+      
+  }
 
 
 };

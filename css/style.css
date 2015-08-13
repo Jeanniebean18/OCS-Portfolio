@@ -8,7 +8,7 @@ html {
 #home {
   position:relative;
   width:100%;
-/*  border:1px solid red;*/
+  /*  border:1px solid red;*/
   
 }
 
@@ -39,7 +39,7 @@ header {
   -o-background-size:cover;
   
  
-/*    border-bottom:5px solid ;*/
+  /*    border-bottom:5px solid ;*/
 }
 
 .absolute {
@@ -57,7 +57,7 @@ header {
 
 
 
- li {
+li {
   
   display:inline-block;
   padding:14px;
@@ -74,7 +74,7 @@ header {
   margin-left:4%;
 }
 
- li:hover{
+li:hover{
   background-color:black;
 }
 
@@ -96,9 +96,9 @@ header {
 }
 
 /*.social_container {
-  position:absol;
-  float:right;
-  height:50px;
+position:absol;
+float:right;
+height:50px;
 
 /*  border:1px solid red;*/
 
@@ -115,7 +115,7 @@ header {
 
 .part-one-left {
   width:40%;
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
   height:385px;
   float:left;
   margin-left:10%;
@@ -193,7 +193,7 @@ a {
   font-weight:700;
   text-decoration:none;
  
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
 }
 
 a:visited {
@@ -219,7 +219,7 @@ ul {
   -webkit-transform:rotate(-90deg);
   -moz-transform:rotate(-90deg);
   -o-transform:rotate(-90deg);
-/*  border:1px solid;*/
+  /*  border:1px solid;*/
 
   
   
@@ -228,7 +228,7 @@ ul {
 
 
 /*.nav:first-child {
-  flex-grow:2;
+flex-grow:2;
 
 
 }
@@ -240,7 +240,7 @@ ul {
 
 .borders {
   position: relative;
-/*  border: 5px solid #000;*/
+  /*  border: 5px solid #000;*/
   z-index:300;
   
 }
@@ -253,7 +253,7 @@ ul {
   position:relative;
   width:80%;
   max-width:1290px;
-/*    border:1px solid;*/
+  /*    border:1px solid;*/
   height:auto;
   margin-right:auto;
   margin-left:auto;
@@ -352,25 +352,25 @@ ul {
 }
 
 .over-work h3 {
-position:relative;
-margin-top:100px;
-margin-bottom:0;
-text-align:center;
-line-height:10px;
-color:white;
-font-size:28px;
-font-family: 'Montserrat', sans-serif;
-font-weight:400;
+  position:relative;
+  margin-top:100px;
+  margin-bottom:0;
+  text-align:center;
+  line-height:10px;
+  color:white;
+  font-size:28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
 }
 
 .over-work h4 {
-position:relative;
-text-align:center;
-line-height:10px;
-color:white;
-font-size:15px;
-font-family: 'Montserrat', sans-serif;
-font-weight:400;
+  position:relative;
+  text-align:center;
+  line-height:10px;
+  color:white;
+  font-size:15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
 }
 
 #work-one:hover > .over-work {
@@ -549,7 +549,7 @@ font-weight:400;
 .contact_right {
   width:50%;
   float:right;
-  border:1px solid red;
+/*  border:1px solid red;*/
 }
 
 hr {
@@ -557,4 +557,77 @@ hr {
   width:50%;
 }
 
+.form {
+width:100%;
+height:40px;
+font-family: 'Montserrat', sans-serif;
+font-weight:normal;
+color:gray;
+font-size: 15px;
+background-color:white;
+outline:0;
+border:none;
+float:right;
+/*  border-radius: 5px;*/
+padding:10px;
+}
+
+#form {
+padding:2%;
+position:relative;
+display:block;
+color:white;
+margin-left: auto;
+margin-right: auto;
+width:60%;
+visibility:visible;
+/*  border:1px solid;*/
+}
+
+.submit {
+  /*  border-radius:10px;*/
+  border:none;
+  width:100px;
+  /*  height:50px;*/
+  background-color:#E71E27;
+  color:white;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:25px;
+  padding:1%;
+  margin-top:2%;
+}
+
+@media (max-width: 600px) {
+  
+  #work-one {
+    visibility:visible;
+  }
+
+  #work-two{
+    visibility:visible;
+  }
+
+  #work-three {
+    visibility:visible;
+  }
+  #work-four {
+    visibility:visible;
+  }
+  #work-five {
+    visibility:visible;
+  }
+  #work-six {
+    visibility:visible;
+  }
+
+  #student_quote_two {
+    visibility:visible;
+  }
+
+  #student_quote {
+    visibility:visible;
+  }
+  
+}
 
