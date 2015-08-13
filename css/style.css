@@ -53,46 +53,29 @@ header {
 
 
 
-.vertical_nav {
-  position:relative;
-  margin-top:500px;
- 
-/*  left:-160px;*/
-/*  display:block;*/
+
+
+
+
+ li {
   
-  -webkit-transform:rotate(-90deg);
-  z-index:900;
-/*  border:1px solid;*/
-}
-
-.nav {
-  display:flex;
-
-}
-
-.box{
-  position:fixed;
-  top:0;
-  width:60px;
-  height:600px;
-/*  background-color:red;*/
-  z-index:800;
-}
-
-.nav li {
-  display:inline;
-  padding:10px;
+  display:inline-block;
+  padding:14px;
   font-size:120%;
-/*  border:1px solid;*/
   background-color:#E71E27;
   margin-right:20px;
-  
   text-align:center;
 }
+
+
 
 .social {
   width:35px;
   margin-left:4%;
+}
+
+ li:hover{
+  background-color:black;
 }
 
 .ocs_logo {
@@ -153,7 +136,7 @@ header {
   font-family: 'Montserrat', sans-serif;
   font-weight:400;
   padding:1%;
-  
+  margin-bottom:40px;
   background-color:black;
   
 }
@@ -205,10 +188,12 @@ p {
 
 a {
   color:white;
-  font-size:174%;
+  font-size:165%;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
   text-decoration:none;
+ 
+/*  border:1px solid;*/
 }
 
 a:visited {
@@ -219,8 +204,22 @@ a:visited {
   text-decoration:none;
 }
 
+.ul_wrap {
+  position:absolute;
+  top:260px;
+  left:-250px;
+  z-index:1000;
+  
+}
+
 ul {
+
   list-style-type: none;
+  transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  -moz-transform:rotate(-90deg);
+  -o-transform:rotate(-90deg);
+/*  border:1px solid;*/
 
   
   
@@ -252,127 +251,306 @@ ul {
 
 .wrapper_work {
   position:relative;
-  width:60%;
-  max-width:900px;
+  width:80%;
+  max-width:1290px;
 /*    border:1px solid;*/
   height:auto;
   margin-right:auto;
   margin-left:auto;
-  margin-top:45px;
+  
+  padding-left:5%;
 }
 
-#work {
+#student_quote {
   position:relative;
   display:block;
   float:left;
   width:100%;
-  height:300px;
-  background-color:#E71E27;
-  margin-bottom:45px;
+  
+  color:#CCCCCC;
+  font-size:315%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  margin-top:30px;
+  margin-bottom:30px;
   visibility:hidden;
+  text-align:center;
   
 }
 
-#work-one {
+
+#student_quote h2 {
+  position:relative;
+  text-align:center;
+  color:black;
+  font-size:15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  line-height:10px;
+
+  
+}
+
+#student_quote_two {
   position:relative;
   display:block;
   float:left;
-  width:40%;
-  height:645px;
-  background-color:#E71E27;
-  margin-bottom:45px;
+  width:100%;
+  color:#CCCCCC;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-size:315%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
   visibility:hidden;
-  
-  /* animation-delay:.5s;
-  -webkit-animation-delay:.5s;*/
+  text-align:center;
   
 }
 
-#work-two {
+
+#student_quote_two h2 {
   position:relative;
-  display:block;
-  float:right;
-  width:55%;
-  height:300px;
-  /*  background-color:red;*/
-  margin-bottom:45px;
-  visibility:hidden;
-  
-  /*  border:1px solid;*/
-  
-  animation-delay:.5s;
-  -webkit-animation-delay:.5s;
+  text-align:center;
+  color:black;
+  font-size:15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  line-height:10px;
   
 }
+
+
+
 
 .kpc {
   width:100%;
   
 }
+
+
+
+.arrow {
+  width:40px;
+}
+
+
+
+
+.button {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:100px;
+  height:auto;
+  background-color:black;
+  color:white;
+  font-size:15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  padding:1%;
+}
+
+.over-work h3 {
+position:relative;
+margin-top:100px;
+margin-bottom:0;
+text-align:center;
+line-height:10px;
+color:white;
+font-size:28px;
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+}
+
+.over-work h4 {
+position:relative;
+text-align:center;
+line-height:10px;
+color:white;
+font-size:15px;
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+}
+
+
+#work-one {
+  position:relative;
+  display:block;
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:hidden;
+  background-image:url("../assets/work_one.jpg");
+  border-radius:50%;
+  background-position: center;
+  margin:20px;
+  border:4px solid #CCCCCC;
+}
+
+#over-work-one {
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  display:block;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:hidden;
+  opacity:.5;
+  background-color:red;
+  border-radius:50%;
+}
+
+
+#work-one:hover > #over-work-one {
+  visibility:visible;
+}
+
+
+
+
+
+
+
+
+#work-two {
+  position:relative;
+  display:block;
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:hidden;
+  background-image:url("../assets/work_one.jpg");
+  border-radius:50%;
+  background-position: center;
+  margin:20px;
+  border:4px solid #CCCCCC;
+}
+
+#work-two:hover {
+  position:relative;
+  display:block;
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:visible;
+  background-image:url("../assets/work_one_hover.jpg");
+}
+
 #work-three {
   position:relative;
   display:block;
-  float:right;
-  width:55%;
-  height:300px;
-  /*  background-color:red;*/
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
   visibility:hidden;
-  margin-bottom:45px;
-  animation-delay:1s;
-  -webkit-animation-delay:1s;
+  background-image:url("../assets/work_one.jpg");
+  border-radius:50%;
+  background-position: center;
+  margin:20px;
+  border:4px solid #CCCCCC;
 }
+
+#work-three:hover {
+  position:relative;
+  display:block;
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:visible;
+  background-image:url("../assets/work_one_hover.jpg");
+}
+
 
 #work-four {
   position:relative;
   display:block;
   float:left;
-  width:100%;
-  height:300px;
-  background-color:#E71E27;
-  margin-bottom:45px;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
   visibility:hidden;
-  
+  background-image:url("../assets/work_one.jpg");
+  border-radius:50%;
+  background-position: center;
+  margin:20px;
+  border:4px solid #CCCCCC;
+}
+
+#work-four:hover {
+  position:relative;
+  display:block;
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:visible;
+  background-image:url("../assets/work_one_hover.jpg");
 }
 
 #work-five {
   position:relative;
   display:block;
   float:left;
-  width:350px;
-  height:300px;
+  width:275px;
+  height:275px;
   background-color:#EF3F23;
-  margin-bottom:27px;
   visibility:hidden;
-  background-image:url("../assets/travel_baby.png");
+  background-image:url("../assets/work_one.jpg");
+  border-radius:50%;
+  background-position: center;
+  margin:20px;
+  border:4px solid #CCCCCC;
 }
 
 #work-five:hover {
   position:relative;
   display:block;
   float:left;
-  width:350px;
-  height:300px;
+  width:275px;
+  height:275px;
   background-color:#EF3F23;
-  margin-bottom:27px;
   visibility:visible;
-  background-image:url("../assets/travel_baby_hover.png");
+  background-image:url("../assets/work_one_hover.jpg");
 }
-
-
 
 #work-six {
   position:relative;
   display:block;
-  float:right;
+  float:left;
   width:275px;
-  height:300px;
-  background-color:#E71E27;
-  margin-bottom:27px;
+  height:275px;
+  background-color:#EF3F23;
   visibility:hidden;
-  animation-delay:.5s;
-  -webkit-animation-delay:.5s;
-  
+  background-image:url("../assets/work_one.jpg");
+  border-radius:50%;
+  background-position: center;
+  margin:20px;
+  border:4px solid #CCCCCC;
 }
+
+#work-six:hover {
+  position:relative;
+  display:block;
+  float:left;
+  width:275px;
+  height:275px;
+  background-color:#EF3F23;
+  visibility:visible;
+  background-image:url("../assets/work_one_hover.jpg");
+}
+
+
+
+
+
+
 
 .contact {
   width:100%;
