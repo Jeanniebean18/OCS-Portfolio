@@ -16,15 +16,7 @@ body {
   margin: 0;
 }
 
-header {
-  position:absolute;
-  display:block;
-  top:0;
-  width:100%;
-  z-index:900;
-
-}
-
+/*clear fix*/
 .clearfix::after {
   content:" ";
   display:table;
@@ -32,122 +24,7 @@ header {
   
 }
 
-.part-one {
-  
-  position:relative;
-  display:block;
-  width:100%;
-  height:593px;
-  border-bottom:none;
-  background-image:url("../assets/students.jpg");
-  background-size:cover;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  
- 
-      border:5px solid ;
-}
-
-.absolute {
-  width:40px;
-  position:absolute !important;
-  
-  top:50px;
-  left:0;
-  
-}
-
-li {
-  
-  display:inline-block;
-  padding:14px;
-  font-size:120%;
-  background-color:#E71E27;
-  margin-right:7px;
-  text-align:center;
-}
-
-
-
-.social {
-  width:35px;
-  margin-left:4%;
-}
-
-li:hover{
-  background-color:black;
-}
-
-.ocs_logo {
-  position:absolute;
-  top:0;
-  right:5%;
-  width:150px;
-}
-.ocs_logo2 {
-  position:absolute;
-  bottom:-13px;
-  right:5%;
-  width:150px;
-}
-
-.logo {
-  width:90%;
-  position:relative;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:19%;
-  margin-bottom:-4%;
-}
-
-/*.social_container {
-position:absol;
-float:right;
-height:50px;
-
-/*  border:1px solid red;*/
-
-}*/
-
-.logo_container {
-  position:relative;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:200px;
-}
-
-
-.part-one-left {
-  width:40%;
-  /*  border:1px solid;*/
-  height:385px;
-  float:left;
-  margin-left:10%;
-}
-
-.text_wrapper {
-  position:relative;
-  /*  border:1px solid;*/
-}
-
-.part-two {
-  position:relative;
-  display:block;
-  width:100%;
-  text-align:center;
-  color:white;
-  font-size:310%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:400;
-  padding:1%;
-  
-  background-color:black;
-  
-}
-
+/*text*/
 h1 {
   position:relative;
   text-align:center;
@@ -165,10 +42,13 @@ h2 {
   text-align:center;
   color:black;
   font-size:210%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:700;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
   line-height:10px;
-  
+}
+
+h2 strong {
+  font-weight:700;
 }
 
 h3 {
@@ -180,6 +60,17 @@ h3 {
   font-weight:700;
   line-height:20px;
   
+  
+}
+
+h4 {
+  position:relative;
+  text-align:left;
+  line-height:29px;
+  color:white;
+  font-size:21px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
   
 }
 
@@ -229,18 +120,101 @@ ul {
   /*  border:1px solid;*/
 }
 
-.student_image {
-  width:75px;
-  height:75px;
-  border-radius:50%;
+li {
+  
+  display:inline-block;
+  padding:14px;
+  font-size:120%;
+  background-color:#E71E27;
+  margin-right:7px;
+  text-align:center;
 }
 
-.borders {
-  position: relative;
-  /*  border: 5px solid #000;*/
-  z-index:300;
-  
+li:hover{
+  background-color:black;
 }
+
+/*header */
+header {
+  position:absolute;
+  display:block;
+  top:0;
+  width:100%;
+  z-index:900;
+
+}
+
+/*hero section 1*/
+.part-one {
+  position:relative;
+  display:block;
+  width:100%;
+  height:625px;
+  border-bottom:none;
+  background-image:url("../assets/students.jpg");
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+}
+
+/*ocs logo top*/
+.ocs_logo {
+  position:absolute;
+  top:0;
+  right:5%;
+  width:150px;
+}
+
+/*ocs logo bottom*/
+.ocs_logo2 {
+  position:absolute;
+  bottom:-13px;
+  right:5%;
+  width:150px;
+}
+
+/*drakon logo*/
+.logo {
+  width:50%;
+  position:relative;
+  display:block;
+  margin-top:25%;
+}
+
+.logo_container {
+  position:relative;
+  display:block;
+  width:200px;
+}
+
+
+/*section 1 float left*/
+
+.part-one-left {
+  width:70%;
+  float:left;
+  margin-left:15%;
+}
+
+.text_wrapper {
+  position:relative;
+  float:left;
+  margin-top:-20px;
+  margin-left:25px;
+  
+
+}
+
+/*section 2*/
+
+
+.divider {
+  width:50%;
+}
+
+
+/*student work*/
  
 .work_blocks {
   position:relative;
@@ -248,20 +222,28 @@ ul {
   width:100%;
   background-image:url("../assets/ag-square.png");
   background-repeat: repeat-y repeat-x;
-  padding-top:80px;
+  padding-top:100px;
   
 }
 
 
 .wrapper_work {
   position:relative;
-  width:80%;
+  width:100%;
   max-width:1290px;
   height:auto;
   margin-right:auto;
   margin-left:auto;
-  padding-left:2%;
+  padding-left:1%;
   
+}
+
+/*student quotes*/
+
+.student_image {
+  width:75px;
+  height:75px;
+  border-radius:50%;
 }
 
 #student_quote {
@@ -270,16 +252,15 @@ ul {
   float:left;
   width:100%;
   color:#CCCCCC;
-  font-size:315%;
+  font-size:355%;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-top:50px;
+  margin-bottom:50px;
   visibility:hidden;
   text-align:center;
   
 }
-
 
 #student_quote h2 {
   position:relative;
@@ -299,9 +280,9 @@ ul {
   float:left;
   width:100%;
   color:#CCCCCC;
-  margin-top:30px;
-  margin-bottom:30px;
-  font-size:315%;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size:355%;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
   visibility:hidden;
@@ -322,23 +303,7 @@ ul {
   
 }
 
-
-
-
-.kpc {
-  width:100%;
-  
-}
-
-
-
-.arrow {
-  width:50px;
-}
-
-
-
-
+/*work circles*/
 .button {
   position:relative;
   margin-left:auto;
@@ -356,7 +321,7 @@ ul {
 
 .over-work h3 {
   position:relative;
-  margin-top:100px;
+  margin-top:150px;
   margin-bottom:0;
   text-align:center;
   line-height:10px;
@@ -375,19 +340,7 @@ ul {
   font-family: 'Montserrat', sans-serif;
   font-weight:400;
 }
-
-
-h4 {
-  position:relative;
-  text-align:left;
-  line-height:29px;
-  color:white;
-  font-size:21px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:400;
-  
-}
-
+/*display colored div over work when hover*/
 #work-one:hover > .over-work {
   visibility:visible;
 }
@@ -409,37 +362,36 @@ h4 {
   visibility:visible;
 }
 
-
-#work-one {
-  position:relative;
-  display:block;
-  float:left;
-  width:275px;
-  height:275px;
-  background-color:#EF3F23;
-  visibility:hidden;
-  background-image:url("../assets/work_one.jpg");
-  border-radius:50%;
-  background-position: center;
-  margin:20px;
-  border:4px solid #CCCCCC;
-}
-
+/*overlay div on work circles*/
 .over-work {
   position:absolute;
   top:-3px;
   left:-3px;
   display:block;
-  width:275px;
-  height:275px;
+  width:400px;
+  height:400px;
   background-color:#EF3F23;
   visibility:hidden;
   opacity:.5;
   background-color:red;
-  border-radius:50%;
+  
 }
 
 
+#work-one {
+  position:relative;
+  display:block;
+  float:left;
+  width:400px;
+  height:400px;
+  background-color:#EF3F23;
+  visibility:hidden;
+  background-image:url("../assets/work_one.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  margin:10px;
+  border:4px solid #CCCCCC;
+}
 
 
 
@@ -447,14 +399,14 @@ h4 {
   position:relative;
   display:block;
   float:left;
-  width:275px;
-  height:275px;
+  width:400px;
+  height:400px;
   background-color:#EF3F23;
   visibility:hidden;
   background-image:url("../assets/work_one.jpg");
-  border-radius:50%;
+  :50%;
   background-position: center;
-  margin:20px;
+  margin:10px;
   border:4px solid #CCCCCC;
 }
 
@@ -464,32 +416,30 @@ h4 {
   position:relative;
   display:block;
   float:left;
-  width:275px;
-  height:275px;
+  width:400px;
+  height:400px;
   background-color:#EF3F23;
   visibility:hidden;
   background-image:url("../assets/work_one.jpg");
-  border-radius:50%;
+  :50%;
   background-position: center;
-  margin:20px;
+  margin:10px;
   border:4px solid #CCCCCC;
 }
-
-
 
 
 #work-four {
   position:relative;
   display:block;
   float:left;
-  width:275px;
-  height:275px;
+  width:400px;
+  height:400px;
   background-color:#EF3F23;
   visibility:hidden;
   background-image:url("../assets/work_one.jpg");
-  border-radius:50%;
+  background-repeat:no-repeat;
   background-position: center;
-  margin:20px;
+  margin:10px;
   border:4px solid #CCCCCC;
 }
 
@@ -499,14 +449,14 @@ h4 {
   position:relative;
   display:block;
   float:left;
-  width:275px;
-  height:275px;
+  width:400px;
+  height:400px;
   background-color:#EF3F23;
   visibility:hidden;
   background-image:url("../assets/work_one.jpg");
-  border-radius:50%;
+  background-repeat:no-repeat;
   background-position: center;
-  margin:20px;
+  margin:10px;
   border:4px solid #CCCCCC;
 }
 
@@ -516,36 +466,26 @@ h4 {
   position:relative;
   display:block;
   float:left;
-  width:275px;
-  height:275px;
+  width:400px;
+  height:400px;
   background-color:#EF3F23;
   visibility:hidden;
   background-image:url("../assets/work_one.jpg");
-  border-radius:50%;
+  background-repeat:no-repeat;
   background-position: center;
-  margin:20px;
+  margin:10px;
   border:4px solid #CCCCCC;
 }
 
+/*footer*/
+
 .contact {
-  
   position:relative;
   width:100%;
   background-color:#1B1B1B;
   padding:2%;
   overflow:hidden;
   
-}
-.contact h1 {
-  color:white;
-  font-size:35px;
-  line-height:0px;
-}
-.contact h2 {
-  color:white;
-  font-size:20px;
-  font-weight:400;
-  line-height:24px;
 }
 
 .contact p {
@@ -555,25 +495,9 @@ h4 {
   line-height:17px;
 }
 
-.contact_left {
-  width:40%;
-  margin-left:5%;
- 
-  float:left;
-  
-}
-.contact_left_inner {
-  width:50%;
-  float:left;
-  
-}
-.contact_left_inner_right {
-  width:50%;
-  float:right;
- 
-}
 
-.contact_right {
+
+.contact_CTA {
   width:50%;
   margin:auto;
   /*  border:1px solid red;*/
@@ -584,58 +508,36 @@ hr {
   width:50%;
 }
 
-.form {
-  width:100%;
-  height:40px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight:400;
-  color:#E5E5E5;
-  font-size: 15px;
-  background-color:white;
-  outline:0;
-  border:none;
-  float:right;
-  /*  border-radius: 5px;*/
-  padding:10px;
-}
 
-#form {
-  padding:2%;
-  position:relative;
-  display:block;
-  color:white;
-  margin-left: auto;
-  margin-right: auto;
-  width:80%;
-  visibility:visible;
-  margin-top:-50px;
-  /*  border:1px solid;*/
-}
 
-.submit {
+.sign-up {
   position:relative;
   border:none;
-  width:50%;
+  width:30%;
   background-color:#E71E27;
   color:white;
   text-align:center;
   font-family: 'Montserrat', sans-serif;
   font-size:20px;
-  padding:2%;
+  padding:1% 0 1% 0;
   margin-left:auto;
   margin-right:auto;
 }
 
-.submit:hover {
+.sign-up:hover {
   background-color:#0078AE;
 }
+
 .star {
   position:absolute;
   bottom:-110px;
   left:-110px;
   width:500px;
-  opacity:.12;
+  opacity:.20;
+  z-index:500;
 }
+
+
 
 
 /*media query less than 600px*/
