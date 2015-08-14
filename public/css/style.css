@@ -575,7 +575,7 @@ hr {
 .backtotop {
   position:absolute;
   bottom:30px;
-  right:-5px;
+  right:5px;
   display:block;
   background-color:black;
   opacity:.1;
