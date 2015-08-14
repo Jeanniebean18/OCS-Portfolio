@@ -107,7 +107,7 @@ a:visited {
 
 .ul_wrap {
   position:fixed;
-  top:265px;
+  top:250px;
   left:-264px;
   z-index:1000;
   
@@ -239,14 +239,6 @@ header {
   
 
 }
-
-/*section 2*/
-
-
-.divider {
-  width:50%;
-}
-
 
 /*student work*/
  
