@@ -1,8 +1,5 @@
 var student=document.getElementById("student_quote");
 var studentTwo=document.getElementById("student_quote_two");
-var workOne=document.getElementById("work-one");
-var workTwo=document.getElementById("work-two");
-var workThree=document.getElementById("work-three");
 var workFour=document.getElementById("work-four");
 var workFive=document.getElementById("work-five");
 var workSix=document.getElementById("work-six");
@@ -15,16 +12,7 @@ function inView(){
 
   if (document.documentElement.clientWidth  >= 600) {
       
-    if(isInViewport(workOne)){
 
-      workOne.style.visibility="visible";
-      workOne.setAttribute("class","animated zoomIn");
-      workTwo.style.visibility="visible";
-      workTwo.setAttribute("class","animated delay1 zoomIn");
-      workThree.style.visibility="visible";
-      workThree.setAttribute("class","animated delay2 zoomIn");
-
-    } 
       
     if(isInViewport(student)){
 

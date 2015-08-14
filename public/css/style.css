@@ -41,10 +41,12 @@ h2 {
   position:relative;
   text-align:center;
   color:black;
-  font-size:210%;
+  font-size:40px;
   font-family: 'Open Sans', sans-serif;
   font-weight:400;
   line-height:10px;
+  margin-left:-1%;
+  margin-bottom:3%;
 }
 
 h2 strong {
@@ -149,13 +151,14 @@ header {
   position:relative;
   display:block;
   width:100%;
-  height:625px;
-  border-bottom:none;
+  height:675px;
+  border:4px solid #CCCCCC;
   background-image:url("../assets/students.jpg");
   background-size:cover;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
+  overflow:hidden;
 }
 
 /*ocs logo top*/
@@ -176,30 +179,59 @@ header {
 
 /*drakon logo*/
 .logo {
-  width:50%;
   position:relative;
-  display:block;
-  margin-top:25%;
+  width:400px;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 .logo_container {
   position:relative;
   display:block;
   width:200px;
+  
 }
+
+.buttontop {
+  position:relative;
+  border:none;
+  width:155px;
+  background-color:#E71E27;
+  color:white;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding:1% 0 1% 0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+.buttontop:hover {
+  
+  background-color:black;
+  
+}
+
 
 
 /*section 1 float left*/
 
 .part-one-left {
-  width:70%;
-  float:left;
-  margin-left:15%;
+  position:absolute;
+  bottom:50px;
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+/*  border:1px solid;*/
 }
 
 .text_wrapper {
   position:relative;
-  float:left;
+  position:relative;
+  
+  margin-right:auto;
+  margin-left:auto;
+  
   margin-top:-20px;
   margin-left:25px;
   
@@ -222,7 +254,7 @@ header {
   width:100%;
   background-image:url("../assets/ag-square.png");
   background-repeat: repeat-y repeat-x;
-  padding-top:100px;
+  padding-top:30px;
   
 }
 
@@ -385,7 +417,7 @@ header {
   width:400px;
   height:400px;
   background-color:#EF3F23;
-  visibility:hidden;
+  visibility:visible;
   background-image:url("../assets/work_one.jpg");
   background-repeat:no-repeat;
   background-position: center;
@@ -402,8 +434,8 @@ header {
   width:400px;
   height:400px;
   background-color:#EF3F23;
-  visibility:hidden;
-  background-image:url("../assets/work_one.jpg");
+  visibility:visible;
+  background-image:url("../assets/work_two.jpg");
   :50%;
   background-position: center;
   margin:10px;
@@ -419,8 +451,8 @@ header {
   width:400px;
   height:400px;
   background-color:#EF3F23;
-  visibility:hidden;
-  background-image:url("../assets/work_one.jpg");
+  visibility:visible;
+  background-image:url("../assets/work_three.jpg");
   :50%;
   background-position: center;
   margin:10px;
@@ -453,7 +485,7 @@ header {
   height:400px;
   background-color:#EF3F23;
   visibility:hidden;
-  background-image:url("../assets/work_one.jpg");
+  background-image:url("../assets/work_two.jpg");
   background-repeat:no-repeat;
   background-position: center;
   margin:10px;
@@ -470,7 +502,7 @@ header {
   height:400px;
   background-color:#EF3F23;
   visibility:hidden;
-  background-image:url("../assets/work_one.jpg");
+  background-image:url("../assets/work_three.jpg");
   background-repeat:no-repeat;
   background-position: center;
   margin:10px;
