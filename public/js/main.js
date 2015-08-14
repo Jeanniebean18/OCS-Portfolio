@@ -1,9 +1,5 @@
 var student=document.getElementById("student_quote");
 var studentTwo=document.getElementById("student_quote_two");
-var workFour=document.getElementById("work-four");
-var workFive=document.getElementById("work-five");
-var workSix=document.getElementById("work-six");
-var star=document.getElementById("star");
 
 
 
@@ -36,16 +32,6 @@ var star=document.getElementById("star");
 
         } 
     
-        if(isInViewport(workFour)){
-
-          workFour.style.visibility="visible";
-          workFour.setAttribute("class","animated zoomIn");
-          workFive.style.visibility="visible";
-          workFive.setAttribute("class","animated delay1 zoomIn");
-          workSix.style.visibility="visible";
-          workSix.setAttribute("class","animated delay2 zoomIn");
-        } 
-
         if(isInViewport(studentTwo)){
 
           studentTwo.style.visibility="visible";

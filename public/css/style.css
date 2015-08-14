@@ -481,7 +481,7 @@ header {
   width:400px;
   height:400px;
   background-color:#EF3F23;
-  visibility:hidden;
+  visibility:visible;
   background-image:url("../assets/work_one.jpg");
   background-repeat:no-repeat;
   background-position: center;
@@ -498,7 +498,7 @@ header {
   width:400px;
   height:400px;
   background-color:#EF3F23;
-  visibility:hidden;
+  visibility:visible;
   background-image:url("../assets/work_two.jpg");
   background-repeat:no-repeat;
   background-position: center;
@@ -515,7 +515,7 @@ header {
   width:400px;
   height:400px;
   background-color:#EF3F23;
-  visibility:hidden;
+  visibility:visible;
   background-image:url("../assets/work_three.jpg");
   background-repeat:no-repeat;
   background-position: center;
