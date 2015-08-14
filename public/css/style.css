@@ -270,11 +270,12 @@ header {
 
 .wrapper_work {
   position:relative;
-  width:100%;
+  width:1120px;
   max-width:1290px;
   height:auto;
   margin-right:auto;
   margin-left:auto;
+/*  border:1px solid;*/
  
   
 }
