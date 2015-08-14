@@ -41,7 +41,7 @@ h2 {
   position:relative;
   text-align:center;
   color:black;
-  font-size:40px;
+  font-size:200%;
   font-family: 'Titillium Web', sans-serif;
   font-weight:300;
   line-height:10px;
@@ -110,23 +110,23 @@ a:visited {
   top:250px;
   left:-264px;
   z-index:1000;
+/*  border:1px solid;*/
+  transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  -moz-transform:rotate(-90deg);
+  -o-transform:rotate(-90deg);
   
 }
 
 ul {
   list-style-type: none;
-  transform:rotate(-90deg);
-  -webkit-transform:rotate(-90deg);
-  -moz-transform:rotate(-90deg);
-  -o-transform:rotate(-90deg);
-  /*  border:1px solid;*/
 }
 
 li {
   
   display:inline-block;
   padding:14px;
-  font-size:120%;
+  font-size:100%;
   background-color:#E71E27;
   margin-right:7px;
   text-align:center;
@@ -565,9 +565,8 @@ hr {
 .star2 {
   position:absolute;
   bottom:-170px;
-  left:-110px;
+  left:-120px;
   width:40%;
-  opacity:.20;
   z-index:500;
 }
 
