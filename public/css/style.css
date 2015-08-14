@@ -86,7 +86,7 @@ h4 {
   color:white;
   font-size:21px;
   font-family: 'Montserrat', sans-serif;
-  font-weight:400;
+  font-weight:350;
   
 }
 
@@ -96,7 +96,7 @@ p {
   color:black;
   font-size:170%;
   font-family: 'Montserrat', sans-serif;
-  font-weight:400;
+  font-weight:350;
   line-height:30px;
   
 }
@@ -193,7 +193,7 @@ header {
 /*drakon logo*/
 .logo {
   position:relative;
-  width:400px;
+  width:350px;
   margin-right:auto;
   margin-left:auto;
   margin-bottom:-2%;
@@ -362,7 +362,7 @@ header {
   color:white;
   font-size:15px;
   font-family: 'Montserrat', sans-serif;
-  font-weight:400;
+  font-weight:350;
   padding:1%;
 }
 
@@ -375,7 +375,7 @@ header {
   color:white;
   font-size:28px;
   font-family: 'Montserrat', sans-serif;
-  font-weight:400;
+  font-weight:350;
 }
 
 .over-work h4 {
@@ -385,7 +385,7 @@ header {
   color:white;
   font-size:15px;
   font-family: 'Montserrat', sans-serif;
-  font-weight:400;
+  font-weight:350;
 }
 /*display colored div over work when hover*/
 #work-one:hover > .over-work {
@@ -415,8 +415,8 @@ header {
   top:-3px;
   left:-3px;
   display:block;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:hidden;
   background-color: rgba(231, 30, 39, 0.8);
@@ -428,8 +428,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:visible;
   background-image:url("../assets/work_one.jpg");
@@ -445,8 +445,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:visible;
   background-image:url("../assets/work_two.jpg");
@@ -462,8 +462,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:visible;
   background-image:url("../assets/work_three.jpg");
@@ -478,8 +478,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:visible;
   background-image:url("../assets/work_one.jpg");
@@ -495,8 +495,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:visible;
   background-image:url("../assets/work_two.jpg");
@@ -512,8 +512,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   background-color:#EF3F23;
   visibility:visible;
   background-image:url("../assets/work_three.jpg");
@@ -527,8 +527,8 @@ header {
   position:relative;
   display:block;
   float:left;
-  width:400px;
-  height:400px;
+  width:350px;
+  height:350px;
   display:none;
   background-repeat:no-repeat;
   background-position: center;
@@ -549,7 +549,7 @@ header {
 .contact p {
   color:white;
   font-size:22px;
-  font-weight:400;
+  font-weight:350;
   line-height:14px;
 }
 
