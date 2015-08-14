@@ -35,7 +35,7 @@
 
   <!-- STYLESHEETS-->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
- <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
   <link rel="stylesheet" type="text/css" media="all" href="css/animate.css" />
 </head>
@@ -61,56 +61,67 @@
     <!-- header ocs logo -->
     <header class="animated slideInDown">
       <a href ="http://omahacodeschool.com/">
-        <img src ="assets/OCS_logo.svg" class="ocs_logo animated slideInDown">
+        <img src ="assets/OCS_logo.svg"  class="ocs_logo animated slideInDown">
       </a>
     </header>
  
     <!-- hero image -->
     <section class="part-one animated fadeIn">
-      <img src ="assets/star2.svg" class="star2 animated rollIn">
+      <img src ="assets/star2.svg" id="star" class="animated star2 rollIn">
       <div class="part-one-left clearfix">
         <div class="logo animated fadeIn delay1">
-            <img src ="assets/class-drakon.svg">
+          <img src ="assets/class-drakon.svg">
         </div>
         <div class="text_wrapper">
-        <h2>the student work portfolio of class drakon.
-        <a class="scroll" data-speed="2000" href="#work"><div class="buttontop "> see our work</div></a>
-      </h2>
+          <h2>the student work portfolio of class drakon.
+            <a class="scroll" data-speed="2000" href="#work"><div class="buttontop "> see our work</div></a>
+          </h2>
         
         </div>
-     </div>
-   </div>
+      </div>
+    </div>
    
     
   </section>
  
- <!-- student work -->
+  <!-- student work -->
   <div id="work"></div>
   <section class="work_blocks">
     <div class="wrapper_work clearfix">
+     
+      <!-- whole work div is a link -->
+      <a href="#">
+        <div id="work-one">
+          <div class="over-work">
+            <h3>Bicycle Counter</h3>
+            <h4>Rails Application</h4>
+            <div class="button"> see work </div>
+          </div>
+        </div>
+        <!-- whole work div is a link -->
+      </a>
+      
+      <a href="#">
+        <div id="work-two">
+          <div class="over-work">
+            <h3>Omaha Slam</h3>
+            <h4>Rails Application</h4>
+            <div class="button"> see work </div>
+          </div>
+        </div>
+      </a>
+      
+      <a href="#">
+        <div id="work-three">
+          <div class="over-work">
+            <h3>Poetry Menu</h3>
+            <h4>WordPress Site</h4>
+            <div class="button"> see work </div>
+          </div>
+        </div>
+      </a>
       
       
-      <div id="work-one">
-        <div class="over-work">
-          <h3>Bicycle Counter</h3>
-          <h4>Rails Application</h4>
-          <div class="button"> <a href="#">see work</a> </div>
-        </div>
-      </div>
-      <div id="work-two">
-        <div class="over-work">
-          <h3>Omaha Slam</h3>
-          <h4>Rails Application</h4>
-          <div class="button"> <a href="#">see work</a> </div>
-        </div>
-      </div>
-      <div id="work-three">
-        <div class="over-work">
-          <h3>Poetry Menu</h3>
-          <h4>WordPress Site</h4>
-          <div class="button"> <a href="#">see work</a> </div>
-        </div>
-      </div>
       <!-- student quote -->
       <div id="student_quote">
         “it’s intense, but totally worth
@@ -122,27 +133,34 @@
     
     <!-- student work row 2 -->
     <div class="wrapper_work clearfix">
+      
+      <a href="#">
       <div id="work-four">
         <div class="over-work">
           <h3>OCS Bridge</h3>
           <h4>Rails Application</h4>
-          <div class="button"> <a href="#">see work</a> </div>
+          <div class="button"> see work </div>
         </div>
       </div>
+      </a>
+      <a href="#">
       <div id="work-five">
         <div class="over-work">
           <h3>Grant Tracker</h3>
           <h4>Rails Application</h4>
-          <div class="button"> <a href="#">see work</a> </div>
+          <div class="button"> see work </div>
         </div>
       </div>
+    </a>
+    <a href="#">
       <div id="work-six">
         <div class="over-work">
           <h3>NLS Tracker</h3>
           <h4>Rails Application</h4>
-          <div class="button"> <a href="#">see work</a> </div>
+          <div class="button"> see work</div>
         </div>
       </div>
+    </a>
        
       <!-- student quote -->
       <div id="student_quote_two">
@@ -151,7 +169,7 @@
         <h2> - Jeannie, OCS Class Drakon </h2>
       </div>
         
-    <a class="scroll" data-speed="2000" href="#home"><div class="backtotop"><img src="assets/arrow-down-01.svg" class="arrow"></div></a>
+      <a class="scroll" data-speed="2000" href="#home"><div class="backtotop"><img src="assets/arrow-down-01.svg" class="arrow"></div></a>
      
     </div>
   </section>
@@ -160,26 +178,28 @@
     <!-- footer and CTA -->
     
     <div id="contact"><div>
-    <section class="contact">
-      <img src ="assets/star.svg" class="star">
-      <div class="CTA">
-        <p>interested in a student’s work?
-          <br>sign-up for our hiring partner's program.<p>
-            <a href="http://hiring-partners.omahacodeschool.com/">
-              <div class="sign-up"> 
-                sign-up
-              </div>
-            </a>
-          </div>
-          <div style="clear:both"></div>
-          <a href="http://omahacodeschool.com/"><img src ="assets/ocs_logo2-01.svg" class="ocs_logo2"></a>
-        </section>
-      </footer>
-    </div>
+      <section class="contact">
+        <img src ="assets/star.svg" class="star">
+        <div class="CTA">
+          <p>interested in a student’s work?
+            <br>sign-up for our hiring partner's program.<p>
+              <a href="http://hiring-partners.omahacodeschool.com/">
+                <div class="sign-up"> 
+                  sign-up
+                </div>
+              </a>
+            </div>
+            <div style="clear:both"></div>
+            <a href="http://omahacodeschool.com/"><img src ="assets/ocs_logo2-01.svg" class="ocs_logo2"></a>
+          </section>
+        </footer>
+      </div>
    
-    <!-- -- SCRIPTS -- -->
-    <script src="js/main.js" media="(min-width: 700px)" type="text/javascript"></script>
-    <!-- google analytics -->
-    <!-- end google analytics -->
-  </body>
-  </html>
+      <!-- -- SCRIPTS -- -->
+      <script src="js/scroll.js" type="text/javascript"></script>
+      <script src="js/main.js" media="(min-width: 700px)" type="text/javascript"></script>
+     
+      <!-- google analytics -->
+      <!-- end google analytics -->
+    </body>
+    </html>

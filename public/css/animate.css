@@ -13,6 +13,13 @@
   animation-fill-mode: both;
 }
 
+.animated.rollOut {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
 .delay1 {
   animation-delay:.5s;
   -web-kit-animation-delay:.5s;
@@ -342,8 +349,8 @@
 
   100% {
     opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
-    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, 120deg);
   }
 }
 
@@ -354,8 +361,8 @@
 
   100% {
     opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
-    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
   }
 }
 
@@ -363,3 +370,8 @@
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+
+
+
+
+
