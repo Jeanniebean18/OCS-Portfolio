@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <html lang="en">
   <!-- METADATA -->
   <title>Class Drakon | Omaha Code School</title>
   <meta charset="utf-8">
@@ -43,15 +44,17 @@
 <!-- main content -->
 <body>
 
-  <section id="home">
+  <div id="home">
+    
+    
     
     <!-- side bar nav -->
     <nav>
       <div class="ul_wrap">
         <ul>
-          <li> <a href ="#home" >home </a></li>
-          <li> <a href ="#work" > student work </a></li>
-          <li><a href ="#contact">sign-up</a></li>
+          <li> <a class="scroll" data-speed="2000" href="#home"> home </a></li>
+          <li> <a class="scroll" data-speed="2000" href="#work"> student work </a></li>
+          <li><a class="scroll" data-speed="2000" href="#contact"> sign-up </a></li>
         </ul>
       </div>
     </nav>
@@ -89,7 +92,7 @@
   </section>
   
   <!-- student work -->
-  <a name="work"></a>
+  <div id="work"></div>
   <section class="work_blocks">
     <div class="wrapper_work clearfix">
       
@@ -163,7 +166,7 @@
     
     <!-- footer and CTA -->
     
-    <a name="contact"></a>
+    <div id="contact"><div>
     <section class="contact">
       <img src ="assets/star.svg" class="star">
       <div class="CTA">
@@ -179,7 +182,7 @@
           <a href="http://omahacodeschool.com/"><img src ="assets/ocs_logo2-01.svg" class="ocs_logo2"></a>
         </section>
       </footer>
-    </section>
+    </div>
    
     <!-- -- SCRIPTS -- -->
     <script src="js/main.js" media="(min-width: 700px)" type="text/javascript"></script>
