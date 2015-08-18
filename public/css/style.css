@@ -309,10 +309,19 @@ header {
   font-size:15px;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
-  line-height:10px;
-
-  
+  line-height:15px;
 }
+
+#quote-mobile h2 {
+  position:relative;
+  text-align:center;
+  color:black;
+  font-size:12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  line-height:15px;
+}
+
 
 #student_quote_two {
   position:relative;
