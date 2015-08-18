@@ -617,7 +617,20 @@ hr {
 .arrow {
   width:100%;
 }
-
+@media (min-width: 1520px) {
+  
+  .part-one {
+    height:775px;
+  }
+  
+  .star2 {
+    position:absolute;
+    bottom:-170px;
+    left:-120px;
+    width:550px;
+    z-index:500;
+  }
+}
 
 
 @media (max-width: 1180px) {
