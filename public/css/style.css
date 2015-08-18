@@ -247,8 +247,6 @@ header {
   margin-left:auto;
   margin-top:-20px;
   margin-left:25px;
-  
-
 }
 
 /*student work*/
@@ -341,7 +339,7 @@ header {
   font-size:15px;
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
-  line-height:10px;
+  line-height:20px;
   
 }
 
@@ -617,6 +615,7 @@ hr {
 .arrow {
   width:100%;
 }
+
 @media (min-width: 1520px) {
   
   .part-one {
@@ -629,6 +628,14 @@ hr {
     left:-120px;
     width:550px;
     z-index:500;
+  }
+  
+  .text_wrapper {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:40px;
+    
   }
 }
 
